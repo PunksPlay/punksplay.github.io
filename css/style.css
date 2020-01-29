@@ -12,7 +12,6 @@ body{
 
 .inner_header{
     position: relative;
-
 }
 
 .logo{
@@ -22,6 +21,11 @@ body{
 
 .logo_2{
     color: #F8F8F8;
+}
+
+.logo_bot{
+    font-size: 15px;
+    color: #72AB00;
 }
 
 a{

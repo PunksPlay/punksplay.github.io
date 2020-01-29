@@ -7,7 +7,7 @@ header{
 body{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .inner_header{
@@ -17,25 +17,46 @@ body{
 }
 
 .logo{
-    font-size: 45px;
+    font-size: 70px;
     color: #72AB00;
     position: relative;
+    top: 20px;
 }
 
 .logo_2{
-    color: #F8F8F8;
+    color: #9A9A9A;
     position: absolute;
-    left: 120px;
+    left: 180px;
     top: 0px;
 }
 
 .logo_bot{
-    font-size: 15px;
+    font-size: 20px;
     color: #72AB00;
 }
 
 a{
     text-decoration: none;
+}
+
+li{
+    border-top: solid 5px #9A9A9A;
+    text-align: center;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+}
+
+li a {
+    font-size: 20px;
+    color: #9A9A9A;
+}
+
+ul{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
 }
 
 .main{

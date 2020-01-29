@@ -1,5 +1,5 @@
 header{
-   /* background-color: black;*/
+    background-color: black;
     border-bottom: 2px solid #72AB00;
     height: 127px;
 }
@@ -12,18 +12,21 @@ body{
 
 .inner_header{
     position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .logo{
     font-size: 45px;
     color: #72AB00;
-    position: fixed top;
-    margin-left: 50px;
-    margin-right: 50px;
+    position: relative;
 }
 
 .logo_2{
     color: #F8F8F8;
+    position: absolute;
+    left: 120px;
+    top: 0px;
 }
 
 .logo_bot{
@@ -33,4 +36,12 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.main{
+
+}
+
+button{
+
 }

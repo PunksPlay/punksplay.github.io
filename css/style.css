@@ -8,6 +8,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 .inner_header{
@@ -144,15 +145,17 @@ ul{
     border: solid 1px #aaa;
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 2vw;   
     border-radius: 5px;
-    width: 920px;
+    padding: 25px;
+    width: 920px;    
 }
 
 .main3{    
     display: inline-block;    
-    line-height: 5px;
+    line-height: 3px;
+    margin-left: 25px;
+    position: absolute;
 }
 
 .info{       
@@ -163,7 +166,8 @@ ul{
 
 .main_text{
     width: 240px;
-    display: inline-block;    
+    display: inline-block;
+    margin-left: 35px;
 }
 
 button{
@@ -176,23 +180,21 @@ button{
     color: white;
 }
 
-img{
-    margin: 35px;
+.face{    
     border: solid 1px #aaa;
     float: left;
 }
 
 .soc{
     border: 0;
-    width: 5%;
+    width: 3%;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 10px;    
     padding: 0;
 }
 
 footer{
-    border-top: 1px #9A9A9A solid;
-    height: 50px;
+    border-top: 1px #9A9A9A solid;    
     background-color: #F8F8F8;
     line-height: 50px;
 }
@@ -208,6 +210,10 @@ footer{
     margin: 0;
     padding: 0;
     display: inline-block;
+}
+
+.main3 a{
+    color: black;
 }
 
 hr{    
